@@ -38,13 +38,6 @@ export default [
     internalPage: false,
   },
   {
-    name: 'Pixel2HTML',
-    color: 'rgba(62,70,110,.1)',
-    logo: pixelLogo,
-    siteName: 'pixel2html.netlify.app',
-    internalPage: true,
-  },
-  {
     name: 'dropd',
     color: 'rgba(0,51,102,.1)',
     logo: dropdLogo,

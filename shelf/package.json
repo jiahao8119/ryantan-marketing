@@ -2,9 +2,9 @@
   "name": "olaolu.dev-shelf",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider gridsome build",
+    "develop": "cross-env NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
+    "explore": "cross-env NODE_OPTIONS=--openssl-legacy-provider gridsome explore"
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "0.1.0",
@@ -14,5 +14,8 @@
     "gridsome": "0.7.14",
     "sharp": "^0.34.2",
     "vue-carousel": "^0.18.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }

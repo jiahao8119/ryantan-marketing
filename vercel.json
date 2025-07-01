@@ -1,0 +1,4 @@
+{
+  "buildCommand": "yarn --cwd landing build",
+  "outputDirectory": "landing/dist"
+}

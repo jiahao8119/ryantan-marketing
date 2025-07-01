@@ -21,7 +21,8 @@
     "build:resume": "node -r esm scripts/resume-to-pdf.js",
     "build": "yarn flush && node -r esm scripts/build.js",
     "predeploy": "yarn build",
-    "deploy": "netlify deploy --prod"
+    "deploy": "netlify deploy --prod",
+    "vercel-build": "yarn --cwd landing build"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "3.8.0",
@@ -55,6 +56,6 @@
     "vuex": "^3.1.1"
   },
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   }
 }

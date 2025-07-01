@@ -1,15 +1,15 @@
 {
-  "name": "olaolu.dev",
+  "name": "bchweb",
   "private": true,
   "version": "1.0.0",
   "workspaces": [
     "literal-sauce-drip"
   ],
   "homepage": "https://olaolu.dev",
-  "description": "Olaolu's personal website",
-  "repository": "https://github.com/whizkydee/olaolu.dev",
-  "bugs": "https://github.com/whizkydee/olaolu.dev/issues",
-  "author": "Olaolu Olawuyi <mrolaolu@gmail.com> (https://olaolu.dev)",
+  "description": "bchweb",
+  "repository": "bchweb",
+  "bugs": "bchweb",
+  "author": "bchweb",
   "scripts": {
     "flush": "del-cli dist landing/dist shelf/dist",
     "install": "yarn --cwd ./landing install && yarn --cwd ./shelf install",

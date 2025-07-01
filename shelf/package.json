@@ -12,6 +12,7 @@
     "@gridsome/source-filesystem": "0.6.2",
     "@gridsome/transformer-remark": "0.5.0",
     "gridsome": "0.7.14",
+    "sharp": "^0.34.2",
     "vue-carousel": "^0.18.0"
   }
 }
